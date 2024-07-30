@@ -15,10 +15,10 @@ csv_files = [
 
 # Connect to the MySQL database
 conn = mysql.connector.connect(
-    host='localhost',
-    user='root',
-    password='QaZmLP789321_+',
-    database='ecommerce'
+    host='hostname',
+    user='user_name',
+    password='password',
+    database='database'
 )
 cursor = conn.cursor()
 
