@@ -23,7 +23,7 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 # Folder containing the CSV files
-folder_path = 'C:/Users/swaro/OneDrive/Documents/Data Analysis/SQL-Python-Ecommerce-Project-main'
+folder_path = '../SQL-Python-Ecommerce-Project-main'
 
 def get_sql_type(dtype):
     if pd.api.types.is_integer_dtype(dtype):
